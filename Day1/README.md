@@ -9,7 +9,7 @@ Day1
 >
 >  3. 공백(띄어쓰기)또는 개행(줄 바꿈)을 기준으로 읽는다.
 >
->  * **객체 생성**
+>  * **import문 및 Scanner 객체 생성**
 >  ```
 >  import java.util.Scanner; // import문 필요	( Scanner 클래스 호출)
 >  ...
