@@ -7,7 +7,7 @@ public class CircleArea {
 		double radious = 10.0;
 		double circleArea = radious*radious*PI;
 		
-		System.out.println("원의  = " + circleArea);
+		System.out.println("원의 면적 = " + circleArea);
 	}
 
 }
