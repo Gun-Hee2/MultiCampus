@@ -61,8 +61,13 @@ Variable(변수)
 >  System.out.println("Hello World");
 >  System.out.println("Hello My World");
 >  ```
->  -> console창에 Hello World
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello My World가 출력됨.
+>  
+>  ```
+>  <console창 출력>
+>  Hello World
+>  Hello My World
+>  ```
+> 
 >  -> 개행이 되고 출력됨.
 >
 >**입력**
