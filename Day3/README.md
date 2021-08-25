@@ -51,9 +51,10 @@ Variable(변수)
 >  ex)
 >  System.out.print("Hello World");
 >  System.out.print("Hello My World");
+>  ```
 >  -> console창에 Hello WorldHello My World가 출력됨.
 >  -> 개행이 되지 않고 출력됨.
->  ```
+> 
 >  > System.out.println();&nbsp;&nbsp;->&nbsp;&nbsp; 개행해서 출력
 >  ```
 >  ex)
