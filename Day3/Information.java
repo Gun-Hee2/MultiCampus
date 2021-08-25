@@ -1,5 +1,5 @@
 
-public class MainClass {
+public class Information {
 	public static void main(String[] args) {
 		String name1, name2, name3, address1, address2, address3, phone1, phone2, phone3;
 		int age1, age2, age3;
