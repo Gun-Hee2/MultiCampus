@@ -32,9 +32,9 @@ Variable(변수)
 >    
 >    * **작명시 유의할 점**
 >    
->      ex) int int; &nbsp;&nbsp;-> &nbsp;&nbsp;변수명으로 예약어 사용 X
->      ex) int 2a; &nbsp;&nbsp;-> &nbsp;&nbsp;변수명의 맨 앞에 숫자 X
->      ex) int 243; &nbsp;&nbsp;-> &nbsp;&nbsp;변수명으로 상수 사용 X 
+>      ex) int int; &nbsp;&nbsp;-> &nbsp;&nbsp;변수명으로 예약어 사용 X   
+>      ex) int 2a; &nbsp;&nbsp;-> &nbsp;&nbsp;변수명의 맨 앞에 숫자 X   
+>      ex) int 243; &nbsp;&nbsp;-> &nbsp;&nbsp;변수명으로 상수 사용 X   
 >      ex) int _abc; &nbsp;&nbsp;-> &nbsp;&nbsp;변수명의 맨 앞에 _사용은 가능하지만 권장하지 않음.
 >     
 >      **변수명을 작명할 때 자신이 제일 편하게 알아볼 수 있는 변수명이 좋다.**
