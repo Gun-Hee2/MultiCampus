@@ -40,3 +40,54 @@ Variable(변수)
 >      **변수명을 작명할 때 자신이 제일 편하게 알아볼 수 있는 변수명이 좋다.**
 >
 -----
+표준 입/출력
+------
+> - **Java에서는 System클래스를 통해 기본적인 console창과 키보드를 통해 입출력을 나타냄.**
+> - **System클래스 안에는 in, out 등의 멤버 변수가 있으며, 입력과 출력을 뜻함.**   
+> 
+> **출력**
+>  >  System.out.print();&nbsp; &nbsp;->&nbsp;&nbsp; 출력을 확인하거나 연산결과를 확인.
+>  ```
+>  ex)
+>  System.out.print("Hello World");
+>  System.out.print("Hello My World");
+>  -> console창에 Hello WorldHello My World가 출력됨.
+>  -> 개행이 되지 않고 출력됨.
+>  ```
+>  > System.out.println();&nbsp;&nbsp;->&nbsp;&nbsp; 개행해서 출력
+>  ```
+>  ex)
+>  System.out.println("Hello World");
+>  System.out.println("Hello My World");
+>  ```
+>  -> console창에 Hello World
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello My World가 출력됨.
+>  -> 개행이 되고 출력됨.
+>
+>**입력**
+>   * **입력을 할때는 Scanner클래스가 필요함**
+>  -> Scanner클래스 호출을 위해 import문이 필요함.
+>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> import java.util.Scanner;
+>   * **Scanner클래스 호출 후 Scanner객체 생성**
+>   -> Scanner scanner = new Scanner(System.in);
+>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> Scanner 객체이름 = new Scanner(System.in);
+>   * **Scanner객체 생성 후, 변수를 설정하여 출력하고 싶은 변수를 출력**
+>   -> 변수 = 객체이름.next자료형();
+>   -> System.out.println(변수);
+>  ```
+>  ex) 
+>  import java.util.Scanner;
+>public class Input {
+>
+>	public static void main(String[] args) {
+>		// TODO Auto-generated method stub
+>		Scanner scan = new Scanner(System.in);
+>		int num;
+>		num = scan.nextInt();
+>		System.out.println(num);
+>	}
+>
+>}
+>  ```
+>  -> Run을 해주고 console창에 원하는 숫자를 키보드로 입력하면 입력한 숫자가 출력됨.
+---------
