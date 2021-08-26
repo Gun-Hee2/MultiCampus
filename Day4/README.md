@@ -217,6 +217,50 @@ Day4
  >       console 결과 : true
  >      ```
  -----------------------------------------------------------------------------------
-  
+  4.&nbsp;&nbsp;Wrapper Class
+  ------------------------------------
+ > * 일반 자료형 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wrapper class   
+ > &nbsp;&nbsp;&nbsp;boolean &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boolean   
+ > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;byte &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Byte   
+ > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;short &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Short   
+ > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Integer   
+ > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Long   
+ > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Float   
+ > &nbsp;&nbsp;&nbsp;&nbsp;double &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Double   
+ > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Character   
+ > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char[] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String   
+ > 
+ >   -> Integer , Double , String이 주로 사용됨.
+ >   
+ >    ```
+ >    ex )
+ >    
+ >    // 숫자(Integer) -> 문자열(String) : 숫자의 변수 + "" or toString
+ >    
+ >    int number = 123;
+ >    String s = number + "";
+ >    System.out.println(number);
+ >    
+ >    Integer inumber = 123;
+ >    String s1 = inumber.toString();
+ >    System.out.println(inumber);
+ >    
+ >    console 출력결과 : 123
+ >    
+ >    // 문자열(String) -> 숫자(Integer) : parseInt 함수 -> *매우 유용*
+ >    
+ >    String strNum = "1024";
+ >    int num = Integer.parseInt(strNum);
+ >    System.out.println(num);
+ >    
+ >    console 출력결과 : 1024
+ >    
+ >    String strNumber = "123.4567";
+ >    double dnum = Double.parseDouble(strNumber);
+ >    System.out.println(dnum);
+ >    
+ >    console 출력결과 : 123.4567
+ >    ```   
+ ----------------------------------------------------------------------------------
 
 
