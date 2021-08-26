@@ -139,8 +139,83 @@ Day4
  >       
  >        String str7 = "홍길동-24-2000/02/17-서울시";
  >        String split[] = str7.split("-");
- >        System.out.println(split[0]);
+ >        System.out.println(split[0]); // "-"token이 사라지고 index number 0에 선언된 홍길동이 출력됨   
+ >        
+ >        -> console 출력결과 : 홍길동 
+ >      ```   
+ >      
+ >       * **substring 함수**
+ >        문자열의 범위를 설정해서 자를 수 있음.   
+ >        
+ >       ```
+ >        ex )   
+ >        
+ >        String str8 = "홍길동-24-2000/02/17-서울시";
+ >        String name = str8.substring(0, 3); // (시작위치, 이 위치 전까지)   
+ >        System.out.println(name);
+ >        
+ >        console 출력결과 : 홍길동
+ >       ```   
  >       
- >        -> console 출력결과 : 홍길동
+ >       * **toUpperCase / toLowerCase 함수**
+ >       
+ >       ```
+ >       ex )  
+ >       
+ >       String str9 = "abcDEF";
+ >       
+ >       //문자열 -> 대문자로 (toUpperCase)
+ >       String upStr = str9.toUpperCase();
+ >       System.out.println(upStr);
+ >       
+ >       console 출력결과 : ABCDEF
+ >       
+ >       //문자열 -> 소문자로 (toLowerCase)
+ >       String lowStr = str9.toLowerCase();
+ >       System.out.println(lowStr);
+ >       
+ >       console 출력결과 : abcdef
+ >       ```   
+ >       
+ >       * **trim 함수**
+ >        문자열의 앞위의 공백을 제거
+ >        
+ >       ```
+ >       ex )
+ >       
+ >       String str10 = " java java java ";
+ >       String trimStr = str10.trim();
+ >       System.out.println(trimStr);
+ >       
+ >       console 출력 : java java java
+ >      ```
+ >      
+ >     * **charAt 함수**
+ >      배열처럼 사용할 수 있는 함수 0 ~ n-1
+ >       
+ >      ```
+ >      ex )
+ >      
+ >      String str11 = "가나다라마";
+ >      char c = str11.charAt(0); // == str11[0]
+ >      System.out.println(c);
+ >      
+ >      console 출력 : 가
+ >     ```   
+ >      
+ >     * **contains 함수**
+ >      문자열을 탐색하는 함수
+ >       
+ >      ```
+ >      ex )
+ >       
+ >       String str12 = "서울시 강남구";
+ >       boolean b1 = str12.contains("강남"); // str12에 "강남" 이 포함 되는지를 true/false로 구분   
+ >       System.out.println(b1);
+ >       
+ >       console 결과 : true
+ >      ```
+ -----------------------------------------------------------------------------------
+  
 
 
