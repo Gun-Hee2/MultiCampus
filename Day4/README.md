@@ -131,9 +131,10 @@ Day4
  >        -> console 출력결과 : A-B-C-D
  >      ```   
  >      
- >       * **split 함수**
- >        문자열을 token으로 자를 수 있음.
+ >       * **split 함수**   
+ >        문자열을 token으로 자를 수 있음.   
  >        ex ) "홍길동-24-2000/02/17/서울시" &nbsp;&nbsp; -> &nbsp;&nbsp;'-' == token   
+ >           
  >       ```
  >       ex )
  >       
@@ -144,7 +145,7 @@ Day4
  >        -> console 출력결과 : 홍길동 
  >      ```   
  >      
- >       * **substring 함수**
+ >       * **substring 함수**   
  >        문자열의 범위를 설정해서 자를 수 있음.   
  >        
  >       ```
@@ -177,7 +178,7 @@ Day4
  >       console 출력결과 : abcdef
  >       ```   
  >       
- >       * **trim 함수**
+ >       * **trim 함수**   
  >        문자열의 앞위의 공백을 제거
  >        
  >       ```
@@ -190,7 +191,7 @@ Day4
  >       console 출력 : java java java
  >      ```
  >      
- >     * **charAt 함수**
+ >     * **charAt 함수**   
  >      배열처럼 사용할 수 있는 함수 0 ~ n-1
  >       
  >      ```
@@ -203,7 +204,7 @@ Day4
  >      console 출력 : 가
  >     ```   
  >      
- >     * **contains 함수**
+ >     * **contains 함수**   
  >      문자열을 탐색하는 함수
  >       
  >      ```
