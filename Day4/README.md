@@ -83,6 +83,64 @@ Day4
 ---------------------------------------------------------------------------------   
  3.&nbsp;&nbsp;문자열 함수
  ---------------------------------
- > 
+ >  * **함수란?**
+ >   Java에서 함수란 클래스의 기능을 뜻함.
+ >   
+ >    대표적으로 쓰이는 문자열 클래스를 간단한 예제들을 통해 알아보려 한다.   
+ >    
+ >    * **비교 함수(equals)**
+ >     
+ >     ```
+ >     ex )
+ >      
+ >      String str3 = "world";
+ >      String str4 = "word";
+ >      
+ >      boolean b = str3.equals(str4);
+ >      System.out.println(b);
+ >      
+ >      -> console창 출력결과 : false   
+ >      ```   
+ >      
+ >       * **위치 탐색 함수( indexOf / lastIndexOf )**
+ >       
+ >       ```   
+ >       ex )
+ >       
+ >       String str5 =  "abcdeabcde"; // [0] ~ [9]
+ >       int index = str5.indexOf("c"); // c의 위치를 문자열 앞에서 부터 탐색   
+ >       System.out.println(index);
+ >       
+ >       -> console 출력결과 : 2
+ >       
+ >       int lastIndex = str5.lastIndexOf("c");
+ >       System.out.println(lastIndex);
+ >       
+ >       -> console 출력결과 : 7
+ >       ```   
+ >       
+ >       * **수정 함수(replace)**
+ >       
+ >       ```   
+ >       ex )   
+ >       
+ >        String str6 = "A*B*C*D";
+ >        String reStr = str6.replace("*","-"); // replace("기존 문자","수정 문자")   
+ >        System.out.println(reStr);
+ >        
+ >        -> console 출력결과 : A-B-C-D
+ >      ```   
+ >      
+ >       * **split 함수**
+ >        문자열을 token으로 자를 수 있음.
+ >        ex ) "홍길동-24-2000/02/17/서울시" &nbsp;&nbsp; -> &nbsp;&nbsp;'-' == token   
+ >       ```
+ >       ex )
+ >       
+ >        String str7 = "홍길동-24-2000/02/17-서울시";
+ >        String split[] = str7.split("-");
+ >        System.out.println(split[0]);
+ >       
+ >        -> console 출력결과 : 홍길동
 
 
