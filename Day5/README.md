@@ -126,12 +126,46 @@ Day5
 >      }
 >      
 >      console 출력결과 : A+ 입니다
->    * **switch문**
->      switch : if문과 비슷하나 값이 명확해야 하고 범위를 지정할 수 없음 - > switch문보다 if문을 많이 쓰는 이유
+>    * **switch문**   
+>      if문과 비슷하나 값이 명확해야 하고 범위를 지정할 수 없음 - > switch문보다 if문을 많이 쓰는 이유   
+>      소수값 사용 X   
+>      case, break 사용 // break를 쓰지 않으면 엉뚱한 결과를 초래함   
+>      ```
+>      형식:
+>           switch( 대상이 되는 변수 ){
+>              case 값1:
+>                   처리1
+>                   break; -> 처리1이 된다면 switch구문 탈출
+>              case 값2:
+>                   처리2
+>                   break;
+>              case 값3:
+>                   처리3
+>                   break;
+>              default:
+>                   break;
+>           }
+>      ```
+>      
+>      ```
+>      ex )
+>      
+>      int number = 2;
+>      switch(number) {
+>          case 1:
+>              System.out.println("number는 1입니다");
+>              break;
+>          case 2:
+>              System.out.println("number는 2입니다");
+>              break;
+>          default:
+>              System.out.println("number는 1도 아니고 2도 아닙니다");
+>      }
+>      ```
 ---------------------------------------------------------------------------
-2.&nbsp;&nbsp;for문**
+2.&nbsp;&nbsp;for문
 ----------------------------
-> * **for문**
+> * **for문**   
 >   지정 횟수에 따라서 반복하는 제어문
 >   
 >   ```
@@ -160,7 +194,7 @@ Day5
 >   //console 출력결과 : 55
 >   ```
 >   
->  * **이중 for문**
+>  * **이중 for문**   
 >    for문 안에 for문
 >    
 >    ```
@@ -177,7 +211,7 @@ Day5
 >                                j = 0
 >                                j = 1
 >                                j = 2
->                        i = 1
+>                         i = 1
 >                                j = 0
 >                                j = 1
 >                                j = 2
@@ -185,5 +219,61 @@ Day5
 -------------------------------------------------------
 3.&nbsp;&nbsp;while문
 ----------------------------
-> * **                            
+> * **while문**
+>   
+>   ```
+>   형식:
+>   while(조건식){
+>         처리
+>         연산식
+>   }          
+>   ```
+>   
+>   ```
+>   ex )
+>   
+>    int w;
+>    w = 0;
+>    while(w < 5) {
+>            System.out.println("while loop w = " + w);
+>            w++;
+>    }    
+>    
+>    //console 출력결과 :      
+>                        while loop w = 0
+>                        while loop w = 1
+>                        while loop w = 2
+>                        while loop w = 3
+>                        while loop w = 4
+>      ```
+>      
+>  * **do ~ while문**
+>    
+>    ```
+>    형식:
+>    
+>     do{
+>         처리
+>         연산식
+>     }while(조건식);
+>     ```
+>     
+>     ```
+>     ex )
+>     
+>     int dw;
+>     dw = 0;
+>     do {
+>             System.out.println("do while loop");
+>             dw++;
+>     }while(dw < 5); 
+>     
+>     //console 출력결과 : 
+>                        do while loop
+>                        do while loop
+>                        do while loop
+>                        do while loop
+>                        do while loop            
+>    ```
+------------------------------------------------------
     
