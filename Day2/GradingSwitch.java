@@ -4,26 +4,26 @@ public class GradingSwitch {
 		Scanner scanner = new Scanner(System.in);
 		
 		char grade;
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(0~100): ");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”(0~100): ");
 		int score = scanner.nextInt();
 		switch (score/10) {
 		case 10: //score = 100
-		case 9: //score´Â 99~99
+		case 9: //scoreëŠ” 90~99
 			grade = 'A';
 			break;
-		case 8: // score´Â 80~89
+		case 8: // scoreëŠ” 80~89
 			grade = 'B';
 			break;
-		case 7: // score´Â 70~79
+		case 7: // scoreëŠ” 70~79
 			grade = 'C';
 			break;
-		case 6: // score´Â 60~69
+		case 6: // scoreëŠ” 60~69
 			grade = 'D';
 			break;
-		default: // score´Â 59ÀÌÇÏ
+		default: // scoreëŠ” 59ì´í•˜
 			grade = 'F';
 		}
-		System.out.println("ÇĞÁ¡Àº " + grade + "ÀÔ´Ï´Ù.");
+		System.out.println("í•™ì ì€ " + grade + "ì…ë‹ˆë‹¤.");
 		scanner.close();
 	}
 
