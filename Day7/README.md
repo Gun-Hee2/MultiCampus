@@ -29,7 +29,8 @@ Day7
 >     
 >
 >    ```
->     형식:
+>     형식:   
+>     
 >     try {
 >        // 예외가 발생될 수 있는 코드
 >      
@@ -63,6 +64,7 @@ Day7
 > 
 >    ```
 >    //파일 생성
+>    
 >    File newfile = new File("c:\\temp\\newfile.txt"); // 파일의 객체(정보)를 생성
 >    try {
 >        if(newfile.createNewFile()) {     //  파일 생성
@@ -78,6 +80,7 @@ Day7
 >    
 >    ```
 >    //파일의 존재 여부
+>    
 >    if(newfile.exists()) {  // -> true/false로 구분
 >	    	System.out.println("newfile.txt가 존재합니다");  //  파일이 지정된 경로에 존재하면 if문의 결과를 출력
 >	 }else {
@@ -87,6 +90,7 @@ Day7
 >   
 >   ```
 >   //파일 쓰기, 추가쓰기
+>   
 >   import java.io.BufferedWriter;
 >   import java.io.File;
 >   import java.io.FileWriter;
@@ -109,6 +113,7 @@ Day7
 >    
 >    ```
 >    //파일 읽기
+>    
 >    import java.io.BufferedReader;
 >    import java.io.File;
 >    import java.io.FileNotFoundException;
