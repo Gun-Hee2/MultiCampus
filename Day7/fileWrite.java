@@ -19,6 +19,7 @@ public class fileWrite {
 			FileWriter fwriter = new FileWriter(file);
 			fwriter.write("안녕" + "\n");
 			fwriter.write("World");
+			fwriter.close();
 			*/
 			
 			//추가 쓰기
