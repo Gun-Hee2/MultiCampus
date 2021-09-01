@@ -15,7 +15,8 @@ Day8
 >    
 >    ```
 >    Computer monitor = new Computer();
->    -> new는 객체를 생성할 때 사용하는 키워드 이며 동적할당을 의미한다. 이렇게 하면 Computer클래스의 인스턴스(instance)인 monitor, 즉 Computer의 객체가 만들어 진다.
+>    -> new는 객체를 생성할 때 사용하는 키워드 이며 동적할당을 의미한다.   
+>    이렇게 하면 Computer클래스의 인스턴스(instance)인 monitor, 즉 Computer의 객체가 만들어 진다.
 >    ```
 >    
 >  * **메소드**
