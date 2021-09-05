@@ -52,7 +52,7 @@ public class StudentSample3 {
       
       // 학생 한명의 평균
       double s_avg = s_sum/ 3;
-      System.out.println("성춘향 총점 : "  + (s_avg) );
+      System.out.println("성춘향 평균 : "  + (s_avg) );
       
       // 국어의 총점, 평균
       int kor_sum = 0;
