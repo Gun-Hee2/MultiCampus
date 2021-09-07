@@ -27,6 +27,7 @@ temp = list2.get(0); //타입변환이 필요없음
 
 * 자주 사용하는 타입 인자
 
+<<<<<<< HEAD
 | 타입인자 |  설명   |
 | :------: | :-----: |
 |  \<T\>   |  Type   |
@@ -35,6 +36,16 @@ temp = list2.get(0); //타입변환이 필요없음
 |  \<N\>   | Number  |
 |  \<V\>   |  Value  |
 |  \<R\>   | Result  |
+=======
+| 타입인자 | 설명    |
+| -------- | ------- |
+| \<T\>      | Type    |
+| \<E\>      | Element |
+| \<K\>      | Key     |
+| \<N\>      | Number  |
+| \<V\>      | Value   |
+| \<R\>      | Result  |
+>>>>>>> 0b03db220920b7cd39d8823544c94c45da7cb0d7
 
 ## 리스트(List)
 
@@ -44,7 +55,7 @@ temp = list2.get(0); //타입변환이 필요없음
 
 이렇게 동적으로 자료형의 갯수가 가변하는 상황이라면 List를 사용하는 것이 유리하다.
 
-### add
+## add
 
 박찬호 선수가 총 3번의 투구를 138, 129, 142(km) 의 속도록 던졌다면 다음과 같이 코드를 작성할 수 있다.
 
@@ -69,7 +80,7 @@ pitches.add(0, "133");    // 첫번째 위치에 133 삽입.
 pitches.add(1, "133");
 ```
 
-### get
+## get
 
 박찬호 선수의 2번째 투구 스피드를 알고 싶다면 다음과 같이 하면 된다.
 
@@ -79,7 +90,7 @@ System.out.println(pitches.get(1));
 
 ArrayList의 get 메소드를 이용하면 특정 인덱스의 값을 추출할 수 있다.
 
-### size
+## size
 
 size 메소드는 ArrayList의 갯수를 리턴한다.
 
@@ -89,7 +100,7 @@ System.out.println(pitches.size());
 
 현재 pitches에 담긴 갯수에 해당되는 값이 출력될 것이다.
 
-### contains
+## contains
 
 contains 메소드는 리스트 안에 항목값이 있는지를 판별하여 그 결과를 boolean으로 리턴한다.
 
@@ -99,7 +110,7 @@ System.out.println(pitches.contains("142"));
 
 142라는 값을 포함하고 있으므로 true가 출력될 것이다.
 
-### remove
+## remove
 
 remove 메소드에는 2개의 방식이 있다. (이름은 같지만 입력파라미터가 다르다)
 
