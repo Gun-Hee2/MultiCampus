@@ -27,14 +27,14 @@ temp = list2.get(0); //타입변환이 필요없음
 
 * 자주 사용하는 타입 인자
 
-| 타입인자 | 설명    |
-| -------- | ------- |
-| <T>      | Type    |
-| <E>      | Element |
-| <K>      | Key     |
-| <N>      | Number  |
-| <V>      | Value   |
-| <R>      | Result  |
+| 타입인자 |  설명   |
+| :------: | :-----: |
+|  \<T\>   |  Type   |
+|  \<E\>   | Element |
+|  \<K\>   |   Key   |
+|  \<N\>   | Number  |
+|  \<V\>   |  Value  |
+|  \<R\>   | Result  |
 
 ## 리스트(List)
 
