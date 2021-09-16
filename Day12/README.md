@@ -12,7 +12,7 @@ DBMS에 따라 DB를 다루는 방식이 다르면 사용자들이 알아야하�
 
 ### 이클립스에서 JDBC드라이버 불러오기
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBG65K%2FbtrfiFAJpj6%2FU9o65vIMxI6QCj6YPIp2x0%2Fimg.png" style="zoom: 25%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBG65K%2FbtrfiFAJpj6%2FU9o65vIMxI6QCj6YPIp2x0%2Fimg.png"  width = "500" height = "300" />
 
 우선, 이클립스에서 사용할 JDBC드라이버를 다운받고 다음과 같이 이클립스로 들어온 다음,
 
