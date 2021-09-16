@@ -12,13 +12,13 @@ DBMS에 따라 DB를 다루는 방식이 다르면 사용자들이 알아야하�
 
 ### 이클립스에서 JDBC드라이버 불러오기
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBG65K%2FbtrfiFAJpj6%2FU9o65vIMxI6QCj6YPIp2x0%2Fimg.png" style="zoom: 33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBG65K%2FbtrfiFAJpj6%2FU9o65vIMxI6QCj6YPIp2x0%2Fimg.png" style="zoom: 25%;" />
 
 우선, 이클립스에서 사용할 JDBC드라이버를 다운받고 다음과 같이 이클립스로 들어온 다음,
 
 JDBC를 사용할 프로젝트에서 마우스 우클릭 선택 후, 위에 사진과 같은 경로로 들어가준다.
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fby5hy0%2FbtrfjWvefQN%2FKA9trCLE8ePPGf0YSEsfG0%2Fimg.png" style="zoom: 33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fby5hy0%2FbtrfjWvefQN%2FKA9trCLE8ePPGf0YSEsfG0%2Fimg.png" style="zoom: 25%;" />
 
 그러면, 다음과 같은 Properties창이 새로 생기고, 여기에서 우측의 Add External JARs를 눌러서,
 
@@ -28,23 +28,23 @@ JDBC를 사용할 프로젝트에서 마우스 우클릭 선택 후, 위에 사�
 
 ### JDBC 연결테스트
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FssmrZ%2FbtrffPksHOd%2Fa0setVQVSfDcvndPrDMaUk%2Fimg.png" style="zoom:33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FssmrZ%2FbtrffPksHOd%2Fa0setVQVSfDcvndPrDMaUk%2Fimg.png" style="zoom: 25%;" />
 
 
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FEd5tQ%2FbtrfgYIiOXc%2FFYDle7P8Nn9IqaSOvIbXu1%2Fimg.png" style="zoom: 33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FEd5tQ%2FbtrfgYIiOXc%2FFYDle7P8Nn9IqaSOvIbXu1%2Fimg.png" style="zoom: 25%;" />
 
 위와 같은 경로로 들어가서 Database Development를 선택하고 Open해준다.
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFwDtT%2FbtrfiGGnEiT%2FOwoFCv9uUJXZGBePHd4FD0%2Fimg.png" style="zoom: 33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFwDtT%2FbtrfiGGnEiT%2FOwoFCv9uUJXZGBePHd4FD0%2Fimg.png" style="zoom: 25%;" />
 
 Open해주면 다음과 같이 Data Source Explorer가 열린다. 
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpzJ8f%2FbtrffO0dN4i%2FLaOgr5hE2EMLebnzVZagfK%2Fimg.png" style="zoom: 33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpzJ8f%2FbtrffO0dN4i%2FLaOgr5hE2EMLebnzVZagfK%2Fimg.png" style="zoom: 25%;" />
 
 이제 여기서 New Oracle에 우클릭하고 Properties를 클릭한다.
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcvLaWI%2FbtrfgGHAsiQ%2FTl1uTED8kWLJ1NWOl5k5PK%2Fimg.png" style="zoom: 33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcvLaWI%2FbtrfgGHAsiQ%2FTl1uTED8kWLJ1NWOl5k5PK%2Fimg.png" style="zoom: 25%;" />
 
 그러면 다음과 같이 창이 열리는데 여기서 Connection URL을 볼 수 있고, 해당되는 URL을 복사해준다.
 
