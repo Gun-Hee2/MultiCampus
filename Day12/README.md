@@ -6,19 +6,19 @@ JDBC란 자바 안에서 SQL을 실행하기 위해 데이터베이스를 연결
 
 JDBC를 자바에서 사용하려면 JDBC드라이버가 있어야 한다. 이 JDBC드라이버는 자바 프로그램과 데이터베이스에 연결하기 위한 라이브러리이다. 
 
-DBMS에 따라 DB를 다루는 방식이 다르면 사용자들이 알아야하는 것이 많아지기 때문에 JDBC가 인터페이스들만 제공하고, 나머지는 각DBMS에 맞게 구현이 되어있다.
+DBMS에 따라 DB를 다루는 방식이 다르면 사용자들이 알아야하는 것이 많아지기 때문에 JDBC가 인터페이스들만 제공하고, 나머지는 각 DBMS에 맞게 구현이 되어있다.
 
 따라서, 사용자는 각 DBMS에 맞는 드라이버만 설치하면 된다.
 
 ### 이클립스에서 JDBC드라이버 불러오기
 
-<img src="C:/Users/alg75/AppData/Roaming/Typora/typora-user-images/image-20210916222641510.png" alt="image-20210916222641510" style="zoom:50%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBG65K%2FbtrfiFAJpj6%2FU9o65vIMxI6QCj6YPIp2x0%2Fimg.png" style="zoom: 67%;" />
 
 우선, 이클립스에서 사용할 JDBC드라이버를 다운받고 다음과 같이 이클립스로 들어온 다음,
 
 JDBC를 사용할 프로젝트에서 마우스 우클릭 선택 후, 위에 사진과 같은 경로로 들어가준다.
 
-![image-20210916223259037](C:/Users/alg75/AppData/Roaming/Typora/typora-user-images/image-20210916223259037.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fby5hy0%2FbtrfjWvefQN%2FKA9trCLE8ePPGf0YSEsfG0%2Fimg.png" style="zoom: 67%;" />
 
 그러면, 다음과 같은 Properties창이 새로 생기고, 여기에서 우측의 Add External JARs를 눌러서,
 
@@ -28,23 +28,23 @@ JDBC를 사용할 프로젝트에서 마우스 우클릭 선택 후, 위에 사�
 
 ### JDBC 연결테스트
 
-![image-20210916225440819](C:/Users/alg75/AppData/Roaming/Typora/typora-user-images/image-20210916225440819.png)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FssmrZ%2FbtrffPksHOd%2Fa0setVQVSfDcvndPrDMaUk%2Fimg.png)
 
 
 
-<img src="C:/Users/alg75/AppData/Roaming/Typora/typora-user-images/image-20210916225604659.png" alt="image-20210916225604659" style="zoom:50%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FEd5tQ%2FbtrfgYIiOXc%2FFYDle7P8Nn9IqaSOvIbXu1%2Fimg.png" style="zoom: 67%;" />
 
 위와 같은 경로로 들어가서 Database Development를 선택하고 Open해준다.
 
-<img src="C:/Users/alg75/AppData/Roaming/Typora/typora-user-images/image-20210916225737139.png" alt="image-20210916225737139" style="zoom: 33%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFwDtT%2FbtrfiGGnEiT%2FOwoFCv9uUJXZGBePHd4FD0%2Fimg.png" style="zoom: 67%;" />
 
 Open해주면 다음과 같이 Data Source Explorer가 열린다. 
 
-![image-20210916224605969](C:/Users/alg75/AppData/Roaming/Typora/typora-user-images/image-20210916224605969.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpzJ8f%2FbtrffO0dN4i%2FLaOgr5hE2EMLebnzVZagfK%2Fimg.png" style="zoom: 67%;" />
 
 이제 여기서 New Oracle에 우클릭하고 Properties를 클릭한다.
 
-<img src="C:/Users/alg75/AppData/Roaming/Typora/typora-user-images/image-20210916225921194.png" alt="image-20210916225921194" style="zoom:50%;" />
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcvLaWI%2FbtrfgGHAsiQ%2FTl1uTED8kWLJ1NWOl5k5PK%2Fimg.png" style="zoom:67%;" />
 
 그러면 다음과 같이 창이 열리는데 여기서 Connection URL을 볼 수 있고, 해당되는 URL을 복사해준다.
 
@@ -126,7 +126,7 @@ DB연결을 하는 DBConnection클래스와 동일하게 db패키지에 만들�
 
 1. 우선 조회를 하기 위한 테이블을 만들어준다.
 
-![image-20210917012752569](images/README/image-20210917012752569.png)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLMmj6%2Fbtrfho0ObcO%2FA5dMtLKbmDWeXpjFFLxI30%2Fimg.png)
 
 위와 같이 Database Development로 돌아와서 Open SQL Scrapbook을 열어주고 Type, Name, Database를 각각 설정해주고, USERDTO테이블을 생성해준다.
 
@@ -362,10 +362,10 @@ public class MainClass {
 
 위와 같이 MainClass를 만들어주고 INSERT를 해주고, 다음과 같이 USERDTO테이블에서 테이블을 SELECT하면 삽입된 데이터 값을 조회할 수 있다.
 
-![image-20210917020415225](images/README/image-20210917020415225.png)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FckxAB1%2FbtrfhexldT9%2FfzkrtxOdXJYC8VDkY7iSck%2Fimg.png)
 
 데이터를 INSERT를 하고 MainClass에서 INSERT부분은 주석처리 해주고 주석처리 되어있는 SELECT구문을 실행해주면 USERDTO에 있는 2개의 데이터를 Java Console에서 조회할 수 있다.
 
-![image-20210917020659169](images/README/image-20210917020659169.png)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdgp7cc%2FbtrfhfbWOoX%2FZnpyYkN5zgdl2RACMpbLR0%2Fimg.png)
 
 위와 같이 SELECT와 INSERT를 구현할 수 있고, UPDATE, DELETE도 INSERT와 같은 방법으로 SQL쿼리만 바꿔주면 구현할 수 있다.
